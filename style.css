@@ -1,0 +1,113 @@
+#beagle-banner {
+    background: black;
+    color: white;
+    width: 100vw;
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    z-index:1;
+}
+
+
+.scrolling-text {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    animation: scroll-text 10s linear infinite;
+}
+
+@keyframes scroll-text {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+p {
+    background: rgb(187, 228, 249);
+    color: rgb(70, 70, 70);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 800px;
+    height: auto;
+    display: block;
+    margin: auto;
+
+}
+
+.dog {
+    background: yellow;
+    font-size: 50px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    font-size: 100px;
+    color: rgb(243, 245, 255);
+    width: 100vw;
+    height: 120px;
+    background: rgb(255, 82, 91);
+    margin-top: 50px; 
+    
+}
+
+/* .sidebar {
+    width: 20%;
+    height: 100%;
+    background: rgb(255, 174, 166);
+    position: absolute;
+    top: 170px;
+    left: 80%;
+} */
+
+.main {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 16px; 
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-arround;
+}
+
+.beagle-victim {
+    flex: 0 1 calc(33.33% - 32px); 
+    box-sizing: border-box;
+    padding: 10px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.beagle-victim img {
+    height: 500px;  
+    width: auto;     
+    object-fit: cover; 
+}
+
+
+
+
+img {
+    width: 900px;
+    height: auto;}
+
+    .title{
+    margin: 0;
+
+    }
